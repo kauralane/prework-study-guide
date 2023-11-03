@@ -4,20 +4,27 @@
 }
 header, 
 footer {
+    text-align: center;
     width: 100%;
-    height: 120px;
+    height: 150px;
     background-color: #cb0a68;
     color: white;
+    font-family:sans-serif;
 }
+footer {
+    padding-top: 20px;
+}
+
 h1,
 h2 {
     text-align: center;
 }
 h1 {
-    font-size: 40px
+    font-size: 40px;
 }
 h2 {
-    color: purple
+    padding-top: 20px;
+    color: purple;
 }
 img {
     display: block;
@@ -29,6 +36,8 @@ img {
 ul {
     padding-left: 40px;
     font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 p {
     text-align: center;
